@@ -8,5 +8,7 @@ Attribute                          | Data Type | Description                    
 MAFD-ID                            | integer   | Unique two-digit numerical reference ID |                                                                
 fault_name                         | string    |                                         | Assigned based on previous mapping or local geographic feature
 dip_dir                            | string    | Compass quadrant of fault dip direction | 
-GeomorphEx                         | string    | Geomorphic expression of the feature used to identify and map the fault trace | 
+GeomorphEx                         | string    | Geomorphic expression of the feature used to identify and map the fault trace | scarp, escarpment
+LocationM                          | string    | Dataset used to map the fault trace     | Type of digital elevation model or other geophysical dataset
+accuracy                           | integer   | 
 
