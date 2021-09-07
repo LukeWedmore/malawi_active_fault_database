@@ -46,6 +46,10 @@ A "static version" of this database in all file formats described above and asso
 This version is intended to be "Live" and as such we encourage edits of the GeoJSON file and the submission of pull requests. Please contact Jack Williams <jack.williams@otago.ac.nz> Luke Wedmore <luke.wedmore@bristol.ac.uk> or Hassan Mdala <mdalahassan@yahoo.com> for information, other requests or if you find any errors within the database.
 
 
+### References
+Styron, Richard, and Marco Pagani. “The GEM Global Active Faults Database.” Earthquake Spectra, vol. 36, no. 1_suppl, Oct. 2020, pp. 160–180, doi:10.1177/8755293020944182.
+
+
 [GeoJSON]: http://geojson.org/
 [GeoPackage]: https://www.geopackage.org/
 [ESRI ShapeFile]: https://support.esri.com/en/white-paper/279
