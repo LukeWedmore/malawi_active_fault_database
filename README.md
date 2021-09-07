@@ -3,13 +3,16 @@
 
 The Malawi Active Fault Database (MAFD) is a freely available open-source geospatial database of active fault traces within Malawi. The database is intended to cover all active faults within Malawi, and those close to the borders in Mozambique and Tanzania. However, possible active faults within 20 km of Malawi in the Luangwa Rift, eastern Zambia, and the Rukwa Rift, southern Tanzania, are not included in the MAFD. 
 
-For full details of the criteria used to assess activity please refer to Williams et al, in review with G^3. 
+For full details of the criteria used to assess activity please refer to Williams et al, in review with G^3. An unreviewed preprint of this article is available at the following link: https://doi.org/10.1002/essoar.10507158.1
 
-The MAFD is a geospatial database containing a collection of active fault traces in GIS vector format. Each faults is mapped as a single continuous GIS feature, including those that show branching geometries. Each fault trace has associated metadata that describe the geometry of the faults, and various aspects of its exposure. Note all faults in this database are considered to have normal kinematics.
 
+## Citation
+Prior to publication, please cite this database as:
+Williams, J. N., Wedmore, L. N. J., Scholz, C. A., Kolawole, F., Wright, L. J. M., Shillington, D., Fagereng, Å., Biggs, J., Mdala, H., Dulanya, Z., Mphepo, F., Chindandali, P. R. N., Werner, M. J. (2021), The Malawi Active Fault Database: an onshore-offshore database for regional assessment of seismic hazard and tectonic evoultion. PREPRINT *Earth and Space Science Open Archive*, doi.org/10.1002/essoar.10507158.1
 
 
 ## Data Format
+The MAFD is a geospatial database containing a collection of active fault traces in GIS vector format. Each faults is mapped as a single continuous GIS feature, including those that show branching geometries. Each fault trace has associated metadata that describe the geometry of the faults, and various aspects of its exposure. Note all faults in this database are considered to have normal kinematics.
 
 ### Data Table
 Attribute                          | Data Type | Description                             | Notes      
@@ -29,9 +32,13 @@ References                         | string    | Relevant geological maps and li
 
 List and brief description of the attributes in the MAFD. Attributes are based on the Global Earthquake Model Global Active Faults Database (GEM-GAFD; Styron and Pagani, 2020). Note, currently we do not include all attributes from the GEM-GAFD as these data have not been collected in Malawi. It is the intention that future versions of this database will include more attributes (e.g. slip rates). No assessment is made of the seismogenic properties of faults in the MAFD as this is subjective and liable to change, therefore, these data have been stored in a separate database that will shortly be submitted for publication.
 
+
 ## File Formats
 
 Following the GEM-GAFD this database is provided in a variety of GIS vector file formats. [GeoJSON] is the version of record, and any changes should be made in this version before they are converted to other file formats using the script in the repository that uses the GDAL tool ogr2ogr (the script is adapted from https://github.com/cossatot/central_am_carib_faults/blob/master/convert.sh - we thank Richard Styron for making this publicly available). The other versions available are [ESRI ShapeFile], KML, GMT, and [GeoPackage].
+
+
+## Version Control
 
 A "static version" of this database in all file formats described above and associated with the submission in *G^3* is available on Zenodo at the following link:
 [![DOI](https://zenodo.org/badge/91775241.svg)]
