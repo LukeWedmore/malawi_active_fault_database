@@ -30,12 +30,12 @@ Last_Mov                           | string    | Date of last earthquake on the 
 Notes                              | string    | remaining miscellaneous information about the fault | 
 References                         | string    | Relevant geological maps and literature where the fault has previously been described | 
 
-List and brief description of the attributes in the MAFD. Attributes are based on the Global Earthquake Model Global Active Faults Database (GEM-GAFD; Styron and Pagani, 2020). Note, currently we do not include all attributes from the GEM-GAFD as these data have not been collected in Malawi. It is the intention that future versions of this database will include more attributes (e.g. slip rates). No assessment is made of the seismogenic properties of faults in the MAFD as this is subjective and liable to change, therefore, these data have been stored in a separate database that will shortly be submitted for publication.
+List and brief description of the attributes in the MAFD. Attributes are based on the [Global Earthquake Model Global Active Faults Database] (GEM-GAFD; Styron and Pagani, 2020). Note, currently we do not include all attributes from the [GEM-GAFD] as these data have not been collected in Malawi. It is the intention that future versions of this database will include more attributes (e.g. slip rates). No assessment is made of the seismogenic properties of faults in the MAFD as this is subjective and liable to change, therefore, these data have been stored in a separate database that will shortly be submitted for publication.
 
 
 ## File Formats
 
-Following the GEM-GAFD this database is provided in a variety of GIS vector file formats. [GeoJSON] is the version of record, and any changes should be made in this version before they are converted to other file formats using the script in the repository that uses the GDAL tool ogr2ogr (the script is adapted from https://github.com/cossatot/central_am_carib_faults/blob/master/convert.sh - we thank Richard Styron for making this publicly available). The other versions available are [ESRI ShapeFile], KML, GMT, and [GeoPackage].
+Following the [GEM-GAFD] this database is provided in a variety of GIS vector file formats. [GeoJSON] is the version of record, and any changes should be made in this version before they are converted to other file formats using the script in the repository that uses the GDAL tool ogr2ogr (the script is adapted from https://github.com/cossatot/central_am_carib_faults/blob/master/convert.sh - we thank Richard Styron for making this publicly available). The other versions available are [ESRI ShapeFile], KML, GMT, and [GeoPackage].
 
 
 ## Version Control
@@ -49,3 +49,5 @@ This version is intended to be "Live" and as such we encourage edits of the GeoJ
 [GeoJSON]: http://geojson.org/
 [GeoPackage]: https://www.geopackage.org/
 [ESRI ShapeFile]: https://support.esri.com/en/white-paper/279
+[Global Earthquake Model Global Active Faults Database]: https://github.com/cossatot/gem-global-active-faults
+[GEM-GAFD]: https://github.com/cossatot/gem-global-active-faults
