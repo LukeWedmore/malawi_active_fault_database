@@ -14,16 +14,16 @@ Williams, J. N., Wedmore, L. N. J., Scholz, C. A., Kolawole, F., Wright, L. J. M
 The MAFD is a geospatial database containing a collection of active fault traces in GIS vector format. Each faults is mapped as a single continuous GIS feature, including those that show branching geometries. Each fault trace has associated metadata that describe the geometry of the faults, and various aspects of its exposure. Note all faults in this database are considered to have normal kinematics.
 
 ### Data Table
-Attribute                          | Data Type | Description                             | Notes      
------------------------------------|-----------|-----------------------------------------|---------------------------------------------------------------
-MAFD-ID                            | integer   | Unique two-digit numerical reference ID |                                                                
-fault_name                         | string    |                                         | Assigned based on previous mapping or local geographic feature
-dip_dir                            | string    | Compass quadrant of fault dip direction | 
+Attribute                          | Data Type | Description                              | Notes      
+-----------------------------------|-----------|------------------------------------------|---------------------------------------------------------------
+MAFD-ID                            | integer   | Unique tree-digit numerical reference ID |                                                                
+fault_name                         | string    |                                          | Assigned based on previous mapping or local geographic feature
+dip_dir                            | string    | Compass quadrant of fault dip direction  | 
 GeomorphEx                         | string    | Geomorphic expression of the feature used to identify and map the fault trace | scarp, escarpment
-LocationM                          | string    | Dataset used to map the fault trace     | Type of digital elevation model or other geophysical dataset
+LocationM                          | string    | Dataset used to map the fault trace      | Type of digital elevation model or other geophysical dataset
 accuracy                           | integer   | Coarsest scale at which fault trace can be mapped. Expressed as the denominator of the map scale | Reflects the prominence of the fault's geomorphic expression
 ActivConf                          | integer   | Activity Confidence: Certainty of neotectonic activity       | 1 if certain, 2 if uncertain
-ExposQual                          | integer   | Exposure Quality of the fault           | 1 if high, 2 if low
+ExposQual                          | integer   | Exposure Quality of the fault            | 1 if high, 2 if low
 EpistQual                          | integer   | Epistemic Quality - certainty of whether that fault exists there | 1 if high, 2 if low
 Last_Mov                           | string    | Date of last earthquake on the fault            | Currently this is unknown for all faults in Malawi except the St Mary’s Fault.
 Notes                              | string    | remaining miscellaneous information about the fault | 
@@ -43,6 +43,19 @@ A "static version" of this database in all file formats described above and asso
 [![DOI](https://zenodo.org/badge/91775241.svg)]
 
 This version is intended to be "Live" and as such we encourage edits of the GeoJSON file and the submission of pull requests. Please contact Jack Williams <jack.williams@otago.ac.nz> Luke Wedmore <luke.wedmore@bristol.ac.uk> or Hassan Mdala <mdalahassan@yahoo.com> for information, other requests or if you find any errors within the database.
+
+## Malawi Other Faults Database (MOFD)
+
+The Malawi Other Faults Database (MOFD) is a geospatial database of other faults in Malawi that have been identified in geological maps, aeromagnetic and gravity datasets, and/or on fieldwork where we did not find any evidence of activity as outlined in the manuscript associated with this database. The database is structured slightly differently from the MAFD and has the following attributes.
+
+Attribute                          | Data Type | Description                             | Notes      
+-----------------------------------|-----------|-----------------------------------------|---------------------------------------------------------------
+MOFD_ID                            | integer   | Unique numerical reference ID           |
+Fault_Name                         | string    |                                         |
+Fault_Age                          | string    | Age of last activity on the fault       | 
+slip_sense                         | string    | kinematic type of fault                 | e.g. normal, reverse, strike-slip (dextral or sinestral)
+Notes                              | string    | information about offset/geology and other evidence for the existence of the fault | 
+References                         | string    | references associated with the fault    |
 
 
 ### References
