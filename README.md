@@ -24,7 +24,7 @@ LocationM                          | string    | Dataset used to map the fault t
 accuracy                           | integer   | Coarsest scale at which fault trace can be mapped. Expressed as the denominator of the map scale | Reflects the prominence of the fault's geomorphic expression
 ActivConf                          | integer   | Activity Confidence: Certainty of neotectonic activity       | 1 if certain, 2 if uncertain
 ExposQual                          | integer   | Exposure Quality of the fault           | 1 if high, 2 if low
-EpestQual                          | integer   | Epistemic Quality - certainty of whether that fault exists there | 1 if high, 2 if low
+EpistQual                          | integer   | Epistemic Quality - certainty of whether that fault exists there | 1 if high, 2 if low
 Last_Mov                           | string    | Date of last earthquake on the fault            | Currently this is unknown for all faults in Malawi except the St Mary’s Fault.
 Notes                              | string    | remaining miscellaneous information about the fault | 
 References                         | string    | Relevant geological maps and literature where the fault has previously been described | 
