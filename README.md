@@ -19,6 +19,7 @@ Attribute                          | Data Type | Description                    
 MAFD-ID                            | integer   | Unique tree-digit numerical reference ID |                                                                
 fault_name                         | string    |                                          | Assigned based on previous mapping or local geographic feature
 dip_dir                            | string    | Compass quadrant of fault dip direction  | 
+slip_type                          | string    | Kinematic type                           | All faults in the MAFD show normal offsets and so are inferred to be predominantly normal but we cannot discount that some faults also exhibit an oblique-slip component.
 GeomorphEx                         | string    | Geomorphic expression of the feature used to identify and map the fault trace | scarp, escarpment
 LocationM                          | string    | Dataset used to map the fault trace      | Type of digital elevation model or other geophysical dataset
 accuracy                           | integer   | Coarsest scale at which fault trace can be mapped. Expressed as the denominator of the map scale | Reflects the prominence of the fault's geomorphic expression
