@@ -3,11 +3,11 @@
 # @Je4326
 # @Jp"+proj=longlat +datum=WGS84 +no_defs"
 # @Jw"GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]"
-# @Nfault_name|dip_dir|GeomorphEx|LocationM|accuracy|ActivConf|ExposQual|EpestQual|Last_Mov|Notes|References|MAFD_ID
-# @Tstring|string|string|string|string|integer|integer|integer|string|string|string|integer
+# @NMAFD_ID|fault_name|dip_dir|slip_type|GeomorphEx|LocationM|accuracy|ActivConf|ExposQual|EpistQual|Last_Mov|Notes|References
+# @Tinteger|string|string|string|string|string|string|integer|integer|integer|string|string|string
 # FEATURE_DATA
 >
-# @DZomba|NW|Scarp|"TanDEM-X & Aeromagnetic"|10000|1|1|2|N/A|"Border fault for the Zomba Graben.  All movement post Cretaceous Lower Chilwa Alkaline Province.  Southern sections mapped from aeromag where uncertainity on precise location of fault tip"|"Bloomfield (1965); Wedmore et al (2020a); Kolawole et al (2021)"|1
+# @D1|Zomba|NW|normal|Scarp|"TanDEM-X & Aeromagnetic"|10000|1|1|2|N/A|"Border fault for the Zomba Graben.  All movement post Cretaceous Lower Chilwa Alkaline Province.  Southern sections mapped from aeromag where uncertainity on precise location of fault tip."|"Bloomfield (1965); Wedmore et al (2020a); Kolawole et al (2021)"
 35.2991562076941 -15.1942199991444
 35.2772301793158 -15.2173367907584
 35.2818476565691 -15.2222108104047
@@ -95,7 +95,7 @@
 35.0326483279284 -15.7548811186296
 35.0314924237798 -15.7745225601721
 >
-# @DMtsimukwe|E|Scarp|"TanDEM-X & Aeromagnetic"|10000|1|2|2|N/A|"Gentle scarp.  Southern end mapped from aeromag."|"Bloomfield and Garson (1965); Wedmore et al (2020a); Kolawole et al (2021)"|2
+# @D2|Mtsimukwe|E|normal|Scarp|"TanDEM-X & Aeromagnetic"|10000|1|2|2|N/A|"Gentle scarp.  Southern end mapped from aeromag."|"Bloomfield and Garson (1965); Wedmore et al (2020a); Kolawole et al (2021)"
 34.9032274098286 -15.3448402029383
 34.9150781122682 -15.3239819951574
 34.9172216801894 -15.316542453645
@@ -113,7 +113,7 @@
 34.9066155394652 -15.2213591086061
 34.901120784602 -15.2173296217065
 >
-# @DMudi|SW|"None (buried)"|"Gravity Survey"|50000|2|2|2|N/A|"Closely spaced across strike from Thyolo,  possibly splay (?)."|"Chisenga et al (2019)"|3
+# @D3|Mudi|SW|normal|"None (buried)"|"Gravity Survey"|50000|2|2|2|N/A|"Closely spaced across strike from Thyolo,  possibly splay (?)."|"Chisenga et al (2019)"
 34.8045212390571 -16.0122599475462
 34.808825255316 -16.0285708980694
 34.8188039066041 -16.0442421756736
@@ -125,7 +125,7 @@
 34.9250366207578 -16.1467957851726
 34.9857296878586 -16.2138785634848
 >
-# @D"Cape Maclear"|W|Escarpment|TanDEM-X|10000|2|2|2|N/A|"Termed the Chingombe Fault by Dawson and Kirkpatrick (1968). Juxtaposes charnockititc gneisses against recent sediments. Eastern tip of fault against syenite intrusion. Parallel to foliation in footwall.  Low certainity on whether fault still active."|"Dawson and Kirkpatrick (1968)"|4
+# @D4|"Cape Maclear"|W|normal|Escarpment|TanDEM-X|10000|2|2|2|N/A|"Termed the Chingombe Fault by Dawson and Kirkpatrick (1968).  Juxtaposes charnockititc gneisses against sediments.  Eastern tip of fault against syenite intrusion.  Parallel to foliation in footwall.  Low certainity on whether fault still active."|"Dawson and Kirkpatrick (1968)"
 34.990698886421 -14.1637030048343
 34.9817428463541 -14.1740910853311
 34.9732590922376 -14.1873427720859
@@ -144,13 +144,13 @@
 34.9300904082511 -14.2739796257061
 34.9292951760295 -14.2791221274061
 >
-# @D"Elephant Marsh"|SW|"None (buried)"|"Gravity Survey"|50000|2|2|2|N/A|"High uncertainity on location, geometry,  and activity of fault."|"Chisenga et al (2019)"|5
+# @D5|"Elephant Marsh"|SW|normal|"None (buried)"|"Gravity Survey"|50000|2|2|2|N/A|"High uncertainity on location,  geometry,  and activity of fault."|"Chisenga et al (2019)"
 34.8899792612 -16.2056693569018
 34.9805116084345 -16.2950564168377
 35.0027502110227 -16.3157801522351
 35.1045784198659 -16.4215515510498
 >
-# @DMwanza|SW|"Escarpment, with distinct scarp at eastern edge of sub-aerial extent. Eastern tip of fault buried"|"TanDEM-X,  SRTM & Gravity Survey"|10000|1|2|2|N/A|"Karoo boundary fault,  juxtaposes basement gneisses and alluvium,  contains calcite and silicate fault rock.  Parallel to gneiss foliation.  Uncertainity on SE extent."|"Castaing (1991); Habgood (1963); Chisenga et al (2019)"|6
+# @D6|Mwanza|SW|normal|"Escarpment, with distinct scarp at eastern edge of sub-aerial extent. Eastern tip of fault buried"|"TanDEM-X,  SRTM & Gravity Survey"|10000|1|2|2|N/A|"Karoo boundary fault,  juxtaposes basement gneisses and alluvium,  contains calcite and silicate fault rock.  Parallel to gneiss foliation.  Uncertainity on SE extent,  likely buried."|"Castaing (1991); Habgood (1963); Chisenga et al (2019)"
 33.8022806973046 -15.4996270858695
 33.8457944710232 -15.5468457915005
 33.8643878014486 -15.5714303061741
@@ -300,7 +300,7 @@
 34.7641083990232 -16.1899665687937
 34.8543843907444 -16.2551473597023
 >
-# @DMtumba|SW|"Minor escaprment, buried at eastern end"|"TanDEM-X, Gravity Survey & Aeromagnetic"|10000|2|2|2|N/A|"Mapped from minor escarpment with eastern extent of trace mapped from gravity survey,  and western extent from aeromagnetic"|"Castaing (1991); Habgood (1963); Chisenga et al (2019); Kolawole et al (2021)"|7
+# @D7|Mtumba|SW|normal|"Minor escaprment, buried at eastern end"|"TanDEM-X, Gravity Survey & Aeromagnetic"|10000|2|2|2|N/A|"Mapped from minor escarpment with eastern extent of trace mapped from gravity survey,  and western extent from aeromagnetic."|"Castaing (1991); Habgood (1963); Chisenga et al (2019); Kolawole et al (2021)"
 34.6533688103133 -15.8968960786813
 34.6659461630402 -15.9097737439864
 34.6697535796081 -15.9177400831417
@@ -343,7 +343,7 @@
 34.8603371982122 -16.1430220831968
 34.8909388106789 -16.1727611547003
 >
-# @DRuo|SW|"Minor escarpment"|TanDEM-X|10000|2|2|1|N/A|"Minor escarpment,  with different sections defined by fault bends.  Fault within Mozambique."||8
+# @D8|Ruo|SW|normal|"Minor escarpment"|TanDEM-X|10000|2|2|1|N/A|"Minor escarpment,  with different sections defined by fault bends.  Fault within Mozambique."|
 35.2964168018817 -16.4201995710665
 35.2992499974131 -16.4229636642679
 35.303050625565 -16.4279390320305
@@ -394,7 +394,7 @@
 35.5245381583149 -16.6359057328795
 35.5278837486371 -16.6401116178559
 >
-# @D"Chingale Step"|NW|Scarp|"TanDEM-X & Aeromagnetic"|10000|1|1|2|N/A|"Near pure normal slip slickenslides.  Labelled Mpimbi fault by Bloomfield (1965). Southern and northern tips buried and mapped from aeromag.  Northern tip colocated with termal springs.  Uncertainity on southern extent,  mapped from aeromagnetic data"|"Bloomfield (1965); Williams et al (2019); Wedmore et al (2020a); Kolawole et al (2021)"|9
+# @D9|"Chingale Step"|NW|normal|Scarp|"TanDEM-X & Aeromagnetic"|10000|1|1|2|N/A|"Near pure normal slip slickenslides.  Labelled Mpimbi fault by Bloomfield (1965).  Southern and northern tips buried and mapped from aeromag.  Northern tip colocated with termal springs.  Uncertainity on southern tip  mapped from aeromagnetic data"|"Bloomfield (1965); Williams et al (2019); Wedmore et al (2020a); Kolawole et al (2021)"
 35.226879952 -15.0567917989999
 35.227180165 -15.0700007689999
 35.2293437770001 -15.0788210119999
@@ -523,7 +523,7 @@
 34.9459701700001 -15.667912788
 34.923102955 -15.70011111
 >
-# @DMakanjira|W|"Escarpment with disitnct scarp along some sections"|TanDEM-X|10000|1|2|1|N/A|"Eastern border fault for the Makanjira Graben.  Highly segmented fault system with variable exposure quality."|"Manyozo et al (1972); King and Dawson (1976); Dulanya et al (2017)"|10
+# @D10|Makanjira|W|normal|"Escarpment with disitnct scarp along some sections"|TanDEM-X|10000|1|2|1|N/A|"Eastern border fault for the Makanjira Graben.  Highly segmented fault system with variable exposure quality."|"Manyozo et al (1972); King and Dawson (1976); Dulanya et al (2017)"
 35.2750403881702 -14.1419429586018
 35.2828204113877 -14.1543789722203
 35.2893108037038 -14.162524824678
@@ -779,7 +779,7 @@
 35.3457928194245 -15.1499900256913
 35.3465206366364 -15.1540887857796
 >
-# @DMalombe|E|Scarp|TanDEM-X|10000|1|1|2|N/A|"Steep scarp at base of escarpment. Bounds Shire Horst and Lake Malombe.  Uncertainity on extent of southern tip"|"Manyozo et al (1972); Hodge et al (2019); Kolawole et al (2021)"|11
+# @D11|Malombe|E|normal|Scarp|TanDEM-X|10000|1|1|2|N/A|"Steep scarp at base of escarpment.  Bounds Shire Horst and Lake Malombe.  Uncertainity on extent of southern tip."|"Manyozo et al (1972); Hodge et al (2019); Kolawole et al (2021)"
 35.1016104532349 -15.1679772021818
 35.0991639043527 -15.161095881151
 35.0975606313048 -15.1555250007258
@@ -901,7 +901,7 @@
 35.1695057649737 -14.5101750989293
 35.1558286761293 -14.4846478402836
 >
-# @DBilila-Mtakataka|NE|Scarp|TanDEM-X|10000|1|1|1|N/A|"Laterally continuous steep scarp suggests recent, possibly Late Quaternary,  events (Hodge et al 2020)."|"Walshaw (1965); Dawson and Kirkpatrick (1968); Jackson and Blenkinsop (1997); Hodge et al (2018, 2019, 2020); Williams et al (2019)"|12
+# @D12|Bilila-Mtakataka|NE|normal|Scarp|TanDEM-X|10000|1|1|1|N/A|"Laterally continuous steep scarp suggests recent, possibly Late Quaternary,  events (Jackson and Blenkinsop 1997, Hodge et al 2018,  2020).  Northern extent ill-defined."|"Walshaw (1965); Dawson and Kirkpatrick (1968); Jackson and Blenkinsop (1997); Hodge et al (2018, 2019, 2020); Williams et al (2019)"
 34.9418047845495 -14.9268748533375
 34.9420545973437 -14.9245754027807
 34.9423856914964 -14.9215998851455
@@ -2298,7 +2298,7 @@
 34.3296269640221 -13.9307199257224
 34.3089343923904 -13.9022003777856
 >
-# @DNsanje|E|Escarpment|"TanDEM-X & SRTM"|10000|2|2|1|N/A|"Northern extent of Urema Graben."|"Bloomfield (1957)"|13
+# @D13|Nsanje|E|normal|Escarpment|"TanDEM-X & SRTM"|10000|2|2|1|N/A|"Northern extent of Urema Graben."|"Bloomfield (1957)"
 35.1353653245949 -17.165235302965
 35.1246776416558 -17.1403658868952
 35.1243187492432 -17.1236190368359
@@ -2356,7 +2356,7 @@
 35.2469924060866 -16.8883178882374
 35.2466349361042 -16.8852020839909
 >
-# @DPanga-1|NE|"Minor escarpment"|TanDEM-X|10000|2|2|1|N/A|"Part of larger Panga Fault System,  a Karoo age structure that juxtaposes Karoo sediments and lavas in the footwall against Cretaceous sediments and recent alluvium. Intruded and subsequently deforms dyke,  active pre and post Karoo."|"Castaing (1991); Habgood (1963); Chisenga et al (2019)"|14
+# @D14|Panga-1|NE|normal|"Minor escarpment"|TanDEM-X|10000|2|2|1|N/A|"Part of larger Panga Fault System,  a Karoo age structure that juxtaposes Karoo sediments and lavas in the footwall against Cretaceous sediments and recent alluvium. Intruded and subsequently deforms dyke,  active pre and post Karoo."|"Castaing (1991); Habgood (1963); Chisenga et al (2019)"
 34.945710840201 -16.6063235415765
 34.9396694477067 -16.6057571610302
 34.9343202981024 -16.6032399141575
@@ -2372,7 +2372,7 @@
 34.9003881960109 -16.5751312405471
 34.8977310751713 -16.5741543578855
 >
-# @DPanga-2|NE|"Minor escarpment"|TanDEM-X|10000|2|2|1|N/A|"Part of larger Panga Fault System,  a Karoo age structure that juxtaposes Karoo sediments and lavas in the footwall against Cretaceous sediments and recent alluvium. Intruded and subsequently deforms dyke,  active pre and post Karoo."|"Castaing (1991); Habgood (1963); Chisenga et al (2019)"|15
+# @D15|Panga-2|NE|normal|"Minor escarpment"|TanDEM-X|10000|2|2|1|N/A|"Part of larger Panga Fault System,  a Karoo age structure that juxtaposes Karoo sediments and lavas in the footwall against Cretaceous sediments and recent alluvium. Intruded and subsequently deforms dyke,  active pre and post Karoo."|"Castaing (1991); Habgood (1963); Chisenga et al (2019)"
 34.9108745407981 -16.5539150055844
 34.9074905404322 -16.5503351951438
 34.9027790823535 -16.5463336828031
@@ -2403,7 +2403,7 @@
 34.8185808187125 -16.5066690753091
 34.813906958263 -16.5016613676846
 >
-# @DPanga-3|NE|"Minor escarpment"|TanDEM-X|10000|2|2|1|N/A|"Part of larger Panga Fault System,  a Karoo age structure that juxtaposes Karoo sediments and lavas in the footwall against Cretaceous sediments and recent alluvium. Intruded and subsequently deforms dyke,  active pre and post Karoo."|"Castaing (1991); Habgood (1963); Chisenga et al (2019)"|16
+# @D16|Panga-3|NE|normal|"Minor escarpment"|TanDEM-X|10000|2|2|1|N/A|"Part of larger Panga Fault System,  a Karoo age structure that juxtaposes Karoo sediments and lavas in the footwall against Cretaceous sediments and recent alluvium. Intruded and subsequently deforms dyke,  active pre and post Karoo."|"Castaing (1991); Habgood (1963); Chisenga et al (2019)"
 34.8247335709535 -16.4818678435625
 34.8232313791943 -16.4818678435625
 34.8216433479059 -16.4812240470943
@@ -2442,7 +2442,7 @@
 34.6926037977093 -16.3928862606844
 34.6913946799281 -16.3921841922953
 >
-# @DPanga-4|NE|"None (buried)"|"Gravity Survey"|50000|2|2|2|N/A|"Part of larger Panga Fault System,  a Karoo age structure that juxtaposes Karoo sediments and lavas in the footwall against Cretaceous sediments and recent alluvium. Intruded and subsequently deforms dyke,  active pre and post Karoo."|"Castaing (1991); Habgood (1963); Chisenga et al (2019)"|17
+# @D17|Panga-4|NE|normal|"None (buried)"|"Gravity Survey"|50000|2|2|2|N/A|"Part of larger Panga Fault System,  a Karoo age structure that juxtaposes Karoo sediments and lavas in the footwall against Cretaceous sediments and recent alluvium. Intruded and subsequently deforms dyke,  active pre and post Karoo."|"Castaing (1991); Habgood (1963); Chisenga et al (2019)"
 34.8291683462209 -16.4100202423717
 34.7891294459277 -16.3993023771924
 34.7387859057098 -16.3618425147032
@@ -2453,7 +2453,7 @@
 34.6405344688351 -16.2808277140147
 34.6243119881853 -16.2497734943307
 >
-# @DTsikulamowa|E|Scarp|TanDEM-X|10000|1|1|1|N/A|"Fault does not follow foliation,  relatively prominent scarp 60 m high. No or very thin (<1 m) sediments in hanging wall on geological map,  confirmed by fieldwork."|"Walshaw (1965); Bloomfield and Garson (1965)"|18
+# @D18|Tsikulamowa|E|normal|Scarp|TanDEM-X|10000|1|1|1|N/A|"Fault does not follow foliation,  relatively prominent scarp 60 m high.  No or very thin (<1 m) sediments in hanging wall on geological map,  confirmed by fieldwork."|"Walshaw (1965); Bloomfield and Garson (1965)"
 34.8004798482585 -15.0483805119055
 34.8030332944249 -15.0426843627651
 34.8054885311234 -15.0382649367078
@@ -2480,7 +2480,7 @@
 34.8211916213766 -14.9324587715575
 34.82038668072 -14.9235373459474
 >
-# @D"St Mary"|W|"Surface rupture/Offset basement"|"Surface rupture mapping, Aeromag & Electical Resistivity Surveys"|10000|1|1|1|2009|"Source of 2009 Karonga Earthquake Sequence. Consists of three sections, northern and central sections blind and mapped from aeromag"|"Macheyeki et al. (2015); Kolawole et al (2018)"|19
+# @D19|"St Mary"|W|normal|"Surface rupture/Offset basement"|"Surface rupture mapping,  Aeromag & Electical Resistivity Surveys"|10000|1|1|1|2009|"Source of 2009 Karonga Earthquake Sequence.  Consists of three sections,  northern and central sections blind and mapped from aeromag"|"Macheyeki et al. (2015); Kolawole et al (2018)"
 33.8384795373053 -9.70711814496044
 33.8543500205893 -9.73147073559089
 33.8525844909755 -9.76013315951094
@@ -2889,7 +2889,7 @@
 33.9595214898518 -10.0059269479276
 33.9817317552025 -10.0383490111858
 >
-# @D"South Karonga East"|W|"Minor escarpment"|TanDEM-X|10000|2|2|2|N/A|"Dip implies converges with South Karonga West at depth."|"Kolawole et al (2018); Thatcher (1974)"|20
+# @D20|"South Karonga East"|W|normal|"Minor escarpment"|TanDEM-X|10000|2|2|2|N/A|"Dip implies converges with South Karonga West at depth."|"Kolawole et al (2018); Thatcher (1974)"
 33.9416229209139 -10.108699086744
 33.9405817499267 -10.1139551421539
 33.940325309009 -10.1369584587994
@@ -2902,7 +2902,7 @@
 34.0004842323963 -10.2166004233688
 34.0129266279215 -10.2326766334223
 >
-# @DLupaso|NE|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A|"Dip implies converges at depth with Katseula."|"Kolawole et al (2018)"|21
+# @D21|Lupaso|NE|normal|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A|"Dip implies converges at depth with Katseula."|"Kolawole et al (2018)"
 33.9307934038881 -10.0607524641776
 33.9244750579346 -10.0565985322317
 33.919313397193 -10.050118463702
@@ -2917,7 +2917,7 @@
 33.8617689288736 -9.92875056338928
 33.8542766169768 -9.91975745944256
 >
-# @DKatesula|W|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A|"Dip implies converges Lupaso fault system at depth."|"Kolawole et al (2018); Thatcher (1974)"|22
+# @D22|Katesula|W|normal|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A|"Dip implies converges Lupaso fault system at depth."|"Kolawole et al (2018); Thatcher (1974)"
 33.8731148797211 -9.91107314608735
 33.8731150887528 -9.91129031379817
 33.8814879340735 -9.92582715271763
@@ -2942,7 +2942,7 @@
 33.9553441057755 -10.0684924192714
 33.9620481607118 -10.0737858126026
 >
-# @DKaronga|E|Escarpment|TanDEM-X|10000|2|2|1|N/A|"Well defined escarpment."|"Kolawole et al. (2018), Dawson et al (2018); Ray (1975). The Geology of the Chitipa-Karonga area. Bulletin of the Geological Survey, Malawi, 42"|23
+# @D23|Karonga|E|normal|Escarpment|TanDEM-X|10000|2|2|1|N/A|"Well defined escarpment."|"Kolawole et al. (2018), Dawson et al (2018); Ray (1975). The Geology of the Chitipa-Karonga area. Bulletin of the Geological Survey, Malawi, 42"
 33.8396579780998 -9.89402393061962
 33.8343562514418 -9.88569264587138
 33.8330139188822 -9.87763953198134
@@ -2975,7 +2975,7 @@
 33.82653502619 -9.72820663368631
 33.8277869096983 -9.7189069276241
 >
-# @DLivingstone|W|Escarpment|"SEGMeNT & Project PROBE 2D Seismic Reflection Data, TanDEM-X"|10000|1|1|1|N/A|"Prominent border fault for North Basin.  Segmented along strike. Describe in detail by Wheeler and Karson (1994) and Accardo et al (2018)"|"Wheeler and Karson (1989), Wheeler and Rosendahl (1994); Mortimer et al (2007)"|24
+# @D24|Livingstone|W|normal|Escarpment|"SEGMeNT & Project PROBE 2D Seismic Reflection Data, TanDEM-X"|10000|1|1|1|N/A|"Prominent border fault for North Basin.  Segmented along strike.  Describe in detail by Wheeler and Karson (1994) and Accardo et al (2018)."|"Wheeler and Karson (1989), Wheeler and Rosendahl (1994); Mortimer et al (2007)"
 33.8927918982533 -9.25660267679786
 33.8995339487065 -9.26392372923355
 33.9036765590813 -9.26835551951649
@@ -3034,7 +3034,7 @@
 34.5726203690879 -10.3415737434069
 34.5542133148822 -10.4292681129335
 >
-# @DSani|W|Scarp|TanDEM-X|10000|1|1|1|N/A|"Prominent scarp with swamps forming in hanging-wall due to footwall uplift"|"Harrison and Chapusa (1975)"|25
+# @D25|Sani|W|normal|Scarp|TanDEM-X|10000|1|1|1|N/A|"Prominent scarp with swamps forming in hanging-wall due to footwall uplift."|"Harrison and Chapusa (1975)"
 34.2860056554035 -13.014106125937
 34.2854468883115 -13.0169859255648
 34.2847161928836 -13.0185762626726
@@ -3116,7 +3116,7 @@
 34.3326580319752 -13.2832594656684
 34.3370178147418 -13.2861524539448
 >
-# @DNkhotakota|SW|Scarp|TanDEM-X|10000|1|1|1|N/A|"Footwall uplift diverts Kaombe Fault"|"Harrison and Chapusa (1975)"|26
+# @D26|Nkhotakota|SW|normal|Scarp|TanDEM-X|10000|1|1|1|N/A|"Footwall uplift diverts Kaombe River."|"Harrison and Chapusa (1975)"
 34.2943366423196 -12.8896690131817
 34.2916976367364 -12.8934390211578
 34.2860426247722 -12.9034295422945
@@ -3134,7 +3134,7 @@
 34.2908026487832 -12.968507364281
 34.2950313376181 -12.9740950006212
 >
-# @DLweya|W|Escarpment|TanDEM-X|10000|2|1|2|N/A|"Fault well exposed, but low confidence if still active"|"Hopkins (1973)"|27
+# @D27|Lweya|W|normal|Escarpment|TanDEM-X|10000|2|1|2|N/A|"Fault well exposed,  but low confidence if still active."|"Hopkins (1973)"
 34.2286910399521 -11.5725052409988
 34.2403300719886 -11.5866014358134
 34.2496704279336 -11.5968597585043
@@ -3180,7 +3180,7 @@
 34.1526418195311 -11.8575003148373
 34.1505474826985 -11.8638895222977
 >
-# @DKavuzi|W|Escarpment|TanDEM-X|20000|2|1|2|N/A|"Forms small depocentre,  lateral extent very uncertain"|"Hopkins (1973)"|28
+# @D28|Kavuzi|W|normal|Escarpment|TanDEM-X|20000|2|1|2|N/A|"Forms small depocentre,  lateral extent very uncertain."|"Hopkins (1973)"
 34.1248574986117 -11.5948560058326
 34.1257251926279 -11.5980375505587
 34.1276051963297 -11.6048344870192
@@ -3204,11 +3204,11 @@
 34.0646973801531 -11.7681055777397
 34.0583342907008 -11.7736009731758
 >
-# @D"Usisya Tip-4"|E|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Flannery and Rosendahl (1990), Contreras et al (2000), Accardo et al (2018), Scholz et al (2020)"|29
+# @D29|"Usisya Tip-4"|E|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Flannery and Rosendahl (1990), Contreras et al (2000), Accardo et al (2018), Scholz et al (2020)"
 34.44670697 -10.35836702
 34.45664862 -10.28455784
 >
-# @DChombo|SW|Scarp|TanDEM-X|10000|1|1|1|N/A||"Harrison and Chapusa (1975)"|30
+# @D30|Chombo|SW|normal|Scarp|TanDEM-X|10000|1|1|1|N/A||"Harrison and Chapusa (1975)"
 34.2182443841057 -12.8176970925059
 34.225720591404 -12.824745870616
 34.229363265872 -12.8292391730693
@@ -3221,7 +3221,7 @@
 34.2607107204876 -12.8935205293875
 34.2700298650294 -12.8980707264884
 >
-# @DLiwaladzi|E|Scarp|TanDEM-X|10000|1|1|1|N/A|"Prominent scarp with footwall uplift diverting the Bua river"|"Harrison and Chapusa (1975)"|31
+# @D31|Liwaladzi|E|normal|Scarp|TanDEM-X|10000|1|1|1|N/A|"Prominent scarp with footwall uplift diverting the Bua river."|"Harrison and Chapusa (1975)"
 34.232512481682 -12.7711756930262
 34.2157205739258 -12.7437745744478
 34.2131531921256 -12.7304217937383
@@ -3233,7 +3233,7 @@
 34.1741857447229 -12.6301608172299
 34.1690382230658 -12.6201437557903
 >
-# @DKaungozi|W|Scarp|TanDEM-X|10000|1|2|1|N/A|"Degraded scarp,  but with fluvial incision in footwall"|"Peters (1975). The Geology of the South Viphya Area. Bulletin of the Geological Survey, Malawi, 36"|32
+# @D32|Kaungozi|W|normal|Scarp|TanDEM-X|10000|1|2|1|N/A|"Degraded scarp,  but with fluvial incision in footwall."|"Peters (1975). The Geology of the South Viphya Area. Bulletin of the Geological Survey, Malawi, 36"
 34.028300869197 -12.3016965345024
 34.0277878446627 -12.3078391145388
 34.0282078587484 -12.3130270929356
@@ -3260,7 +3260,7 @@
 34.059725068546 -12.5071800433694
 34.0712557972965 -12.5206201017406
 >
-# @DCassimo|E|Escarpment|TanDEM-X|10000|2|1|1|N/A|"Forms minor escarpment in footwall of South Basin Fault 13"||33
+# @D33|Cassimo|E|normal|Escarpment|TanDEM-X|10000|2|1|1|N/A|"Forms minor escarpment in footwall of South Basin Fault 13."|
 34.9329292812086 -13.542724564172
 34.9263105686126 -13.4967975532658
 34.9248006644656 -13.4907004032943
@@ -3270,7 +3270,7 @@
 34.9082438901842 -13.4051676358297
 34.9061397601658 -13.3878043673709
 >
-# @D"South Karonga West"|E|"Minor escarpment"|TanDEM-X|10000|2|2|1|N/A|"Dips imply converges with South Karonga East at depth."|"Kemp (1975); Kolawole et al (2018)"|34
+# @D34|"South Karonga West"|E|normal|"Minor escarpment"|TanDEM-X|10000|2|2|1|N/A|"Dips imply converges with South Karonga East at depth."|"Kemp (1975); Kolawole et al (2018)"
 34.0082291332798 -10.2583299405668
 33.9976071739775 -10.2423519836262
 33.9886631645563 -10.2333317544196
@@ -3286,14 +3286,14 @@
 33.9291733468094 -10.1169023467861
 33.9279755918385 -10.1118253611388
 >
-# @DSabi|E|Escarpment|TanDEM-X|10000|2|2|1|N/A||"Kemp (1975)"|35
+# @D35|Sabi|E|normal|Escarpment|TanDEM-X|10000|2|2|1|N/A||"Kemp (1975)"
 34.0509713538173 -10.32094838758
 34.0293542962746 -10.2966857281921
 34.0074382591477 -10.2739591184248
 33.9947709072205 -10.2608830776068
 33.9768380200875 -10.2404827944774
 >
-# @DChilingali|W|Scarp|TanDEM-X|10000|1|1|1|N/A|"Can be divided into three along-strike sections by bends.  Footwall uplift has resulted in lagoon forming in hanging-wall against scarp"|"Harrison and Chapusa (1975); Ebinger (1987)"|36
+# @D36|Chilingali|W|normal|Scarp|TanDEM-X|10000|1|1|1|N/A|"Can be divided into three along-strike sections by bends.  Footwall uplift has resulted in lagoon forming in hanging-wall against scarp."|"Harrison and Chapusa (1975); Ebinger (1987)"
 34.2187577839214 -12.8807696539318
 34.215971945208 -12.8895783585205
 34.2129685287434 -12.9070082677822
@@ -3332,7 +3332,7 @@
 34.2021426881261 -13.1458747925452
 34.2055055382267 -13.1516817605701
 >
-# @D"Hara Plain"|NE|Scarp|TanDEM-X|10000|2|1|2|N/A|"Chonganga River cuts through footwall.  Indicative of slow slip rates?"|"Kemp (1975)"|37
+# @D37|"Hara Plain"|NE|normal|Scarp|TanDEM-X|10000|2|1|2|N/A|"Chonganga River cuts through footwall.  Indicative of slow slip rates?"|"Kemp (1975)"
 34.1458326557028 -10.4923105503519
 34.1416717245264 -10.4869876869038
 34.1396288444912 -10.4814670099901
@@ -3344,7 +3344,7 @@
 34.1252084051962 -10.4571366100151
 34.1240468948221 -10.4552358809097
 >
-# @D"South Basin Fault 5"|W|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Forms high displacment fault along the South Basin with South Basin Fault 13"|"Scholz et al (2020)"|38
+# @D38|"South Basin Fault 5"|W|normal|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Forms high displacment fault along the South Basin with South Basin Fault 13."|"Scholz et al (2020)"
 34.4296054431211 -12.1571517145358
 34.4419532238253 -12.1700790086052
 34.4630285744247 -12.1996935462537
@@ -3376,7 +3376,7 @@
 34.7940032261857 -13.3830541171582
 34.7963344370952 -13.531601818408
 >
-# @D"South Basin Fault 10"|E|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|2|N/A|"Minor offset,  low confidence on lateral extent"|"Scholz et al (2020)"|39
+# @D39|"South Basin Fault 10"|E|normal|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|2|N/A|"Minor offset,  low confidence on lateral extent."|"Scholz et al (2020)"
 34.6849858773759 -13.6418002198714
 34.686639057926 -13.6276177918796
 34.6925578733338 -13.6021546892326
@@ -3385,7 +3385,7 @@
 34.6999465809448 -13.558637879476
 34.7095553151986 -13.4962627604303
 >
-# @D"South Basin Fault 14"|SW|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020)"|40
+# @D40|"South Basin Fault 14"|SW|normal|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020)"
 34.5225797930566 -13.1031046064561
 34.5336559041807 -13.1198437748933
 34.5607585633706 -13.1761421617992
@@ -3394,7 +3394,7 @@
 34.651059752521 -13.3538468003031
 34.6691985708473 -13.3858434989059
 >
-# @D"South Basin Fault 3"|E|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Intersects with South Basin Fault 4 at depth?"|"Scholz et al (2020)"|41
+# @D41|"South Basin Fault 3"|E|normal|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Intersects with South Basin Fault 4 at depth?"|"Scholz et al (2020)"
 34.5519661825137 -12.1282230600287
 34.528149658356 -12.086381026329
 34.5048805746271 -12.0463682469555
@@ -3404,7 +3404,7 @@
 34.4368427980433 -11.9520883278022
 34.4187062603436 -11.9266309959292
 >
-# @D"South Basin Fault 4"|SW|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Dips imply converges with South Basin Fault 3 at depth."|"Scholz et al (2020)"|42
+# @D42|"South Basin Fault 4"|SW|normal|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Dips imply converges with South Basin Fault 3 at depth."|"Scholz et al (2020)"
 34.4431488552353 -11.8928839982018
 34.4504118894513 -11.9147435361578
 34.4611417574719 -11.9410146897978
@@ -3414,7 +3414,7 @@
 34.5327511157642 -12.0571643448239
 34.5560795373755 -12.1065666734101
 >
-# @D"South Basin Fault 8"|E|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020)"|43
+# @D43|"South Basin Fault 8"|E|normal|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020)"
 34.4379788401972 -12.1297602312949
 34.4223001315366 -12.113504527839
 34.4101202484145 -12.0927818972305
@@ -3426,7 +3426,7 @@
 34.3506548066828 -11.8663901212546
 34.3536232061912 -11.856973135098
 >
-# @D"Usisya Main"|E|Escarpment|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|10000|1|1|1|N/A|"Split into north and south sections.  Also part of larger Usisya fault system"|"Flannery and Rosendahl (1990), Contreras et al (2000), Accardo et al (2018), Scholz et al (2020)"|44
+# @D44|"Usisya Main"|E|normal|Escarpment|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|10000|1|1|1|N/A|"Split into north and south sections.  Also part of larger Usisya fault system."|"Flannery and Rosendahl (1990), Contreras et al (2000), Accardo et al (2018), Scholz et al (2020)"
 34.4249042843821 -11.7474901667996
 34.3835175888818 -11.7076053515337
 34.3583155077877 -11.6889202048836
@@ -3455,7 +3455,7 @@
 34.1977334239861 -10.723279634255
 34.1790952104171 -10.7049888135209
 >
-# @D"South Basin Fault 12"|W|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Part of South Basin Fault 7-9-12 system"|"Scholz et al (2020)"|45
+# @D45|"South Basin Fault 12"|W|normal|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020)"
 34.3490370789671 -12.2201562360775
 34.3623662534667 -12.2358578810343
 34.3637668310985 -12.2440238928163
@@ -3469,14 +3469,14 @@
 34.4453386992648 -12.6425354583535
 34.4549138308408 -12.6970776778205
 >
-# @D"Central Basin Fault 3"|E|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Part of Central to South Basin Accomodation zone."|"Scholz et al (2020)"|46
+# @D46|"Central Basin Fault 3"|E|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Part of Central to South Basin Accomodation zone."|"Scholz et al (2020)"
 34.5933826064976 -11.6687985111327
 34.5886786588045 -11.6179361523152
 34.5861708284318 -11.5948516504773
 34.5880518042768 -11.5670510178733
 34.5922517093472 -11.5292027678497
 >
-# @D"Central Basin Fault 6"|SE|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Part of Central to South Basin Accomodation zone.  Combined with Central Basin Fault 4 splay in the MSSD"|"Scholz et al (2020)"|47
+# @D47|"Central Basin Fault 6"|SE|normal|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Part of Central to South Basin Accomodation zone."|"Scholz et al (2020)"
 34.6260038059636 -11.8770730664809
 34.6640797283618 -11.8273304719118
 34.6779232886286 -11.7975256400242
@@ -3487,7 +3487,7 @@
 34.6968343757932 -11.6582713154449
 34.7068553877807 -11.6065398886935
 >
-# @DLipichili|W|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Along strike mininima in displacements. Central Basin Faults 15, 16 & 18  of Scholz et al (2020)"|"McCartney and Scholz (2016); Scholz et al (2020)"|48
+# @D48|Lipichili|W|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Along strike mininima in displacements.  Central Basin Faults 15, 16 & 18  of Scholz et al (2020)."|"McCartney and Scholz (2016); Scholz et al (2020)"
 34.461912576228 -10.7188750383371
 34.4618350369708 -10.7438839315277
 34.4575995555796 -10.7980979824191
@@ -3522,7 +3522,7 @@
 34.3666671555484 -11.251153302885
 34.3587278825307 -11.3109718985766
 >
-# @D"South Basin Fault 15"|W|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020)"|49
+# @D49|"South Basin Fault 15"|W|normal|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020)"
 34.5460386290882 -11.9050138185422
 34.55971863517 -11.9711680232712
 34.5743453656404 -12.0078349383524
@@ -3535,7 +3535,7 @@
 34.6257592682695 -12.3454625519417
 34.6209710845815 -12.4184515340693
 >
-# @D"Central Basin Fault 25"|E|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020)"|50
+# @D50|"Central Basin Fault 25"|E|normal|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020)"
 34.7668547713069 -12.0295548044556
 34.7675864738897 -12.0080905939483
 34.7700565875672 -11.9857566428346
@@ -3550,7 +3550,7 @@
 34.8640042578422 -11.566274790383
 34.8689371782055 -11.522466066493
 >
-# @D"Central Basin Fault 1"|E|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020)"|51
+# @D51|"Central Basin Fault 1"|E|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020)"
 34.6247716381648 -11.5162940040148
 34.6041187379425 -11.4898659529667
 34.5920906886361 -11.4722035046306
@@ -3565,7 +3565,7 @@
 34.5259610400691 -11.2349640072931
 34.5344641455836 -11.2143342932958
 >
-# @D"Central Basin Fault 19"|W|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"McCartney and Scholz (2016); Scholz et al (2020)"|52
+# @D52|"Central Basin Fault 19"|W|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"McCartney and Scholz (2016); Scholz et al (2020)"
 34.4650926294155 -11.3276243831527
 34.4756630066442 -11.3527148523066
 34.4828912506044 -11.3774056565915
@@ -3582,7 +3582,7 @@
 34.5427526069129 -11.6647172636745
 34.5432939604937 -11.7012110860226
 >
-# @D"South Basin Fault 6"|W|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Likely intersects with South Basin Fault 3 at depth"|"Scholz et al (2020)"|53
+# @D53|"South Basin Fault 6"|W|normal|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020)"
 34.4741830413479 -11.8733765014265
 34.4838976801197 -11.893341708894
 34.4906493103499 -11.9118575028544
@@ -3590,7 +3590,7 @@
 34.5665236640465 -12.061370061758
 34.5841992614171 -12.1122113640954
 >
-# @D"Central Basin Fault 4"|NE|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Part of Central to South Basin Accomodation zone.  Possible splay of Central Basin Fault 6"|"Scholz et al (2020)"|54
+# @D54|"Central Basin Fault 4"|NE|normal|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Part of Central to South Basin Accomodation zone.  Possible splay of Central Basin Fault 6."|"Scholz et al (2020)"
 34.7627645476859 -11.693527057109
 34.7424929348657 -11.7572542887805
 34.7194944056025 -11.8004050650085
@@ -3598,7 +3598,7 @@
 34.6706252046021 -11.8593476410117
 34.6321425824058 -11.8856438345238
 >
-# @D"Lipichili South"|W|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Central Basin Fault 17 of Scholz et al (2020)"|"McCartney and Scholz (2016); Scholz et al (2020)"|55
+# @D55|"Lipichili South"|W|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Central Basin Fault 17 of Scholz et al (2020)."|"McCartney and Scholz (2016); Scholz et al (2020)"
 34.3831422826558 -11.2548654921035
 34.3873899161269 -11.2663373017517
 34.3893383803328 -11.2840402364597
@@ -3609,13 +3609,13 @@
 34.3785094989546 -11.3578955559412
 34.3665550301134 -11.3919830167784
 >
-# @D"Central Basin Fault 9"|W|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Likely splay of Central Basin Fault 19?"|"McCartney and Scholz (2016); Scholz et al (2020)"|56
+# @D56|"Central Basin Fault 9"|W|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Likely splay of Central Basin Fault 19?"|"McCartney and Scholz (2016); Scholz et al (2020)"
 34.4570026082878 -11.3647780212631
 34.4613403299858 -11.3787882475186
 34.4668018914729 -11.4040126405604
 34.4705072924805 -11.4331060949855
 >
-# @D"Central Basin Fault 27"|E|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020)"|57
+# @D57|"Central Basin Fault 27"|E|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020)"
 34.5818336043367 -11.7330852769215
 34.6036389862492 -11.6784688368778
 34.6240435908927 -11.6376639947522
@@ -3626,7 +3626,7 @@
 34.7089029300118 -11.4097547354142
 34.725529661094 -11.3580753933956
 >
-# @D"Central Basin Fault 22"|W|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Possible splay of Central Basin Fault 20?"|"McCartney and Scholz (2016); Scholz et al (2020)"|58
+# @D58|"Central Basin Fault 22"|W|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Possible splay of Central Basin Fault 20?"|"McCartney and Scholz (2016); Scholz et al (2020)"
 34.453335008503 -11.2320543741514
 34.4559168592248 -11.247294181188
 34.458974554202 -11.2740680502713
@@ -3635,7 +3635,7 @@
 34.4746015271423 -11.3086180438867
 34.4856019341395 -11.3361742118703
 >
-# @D"Usisya Tip-1"|E|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Flannery and Rosendahl (1990), Contreras et al (2000), Accardo et al (2018), Scholz et al (2020)"|59
+# @D59|"Usisya Tip-1"|E|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Flannery and Rosendahl (1990), Contreras et al (2000), Accardo et al (2018), Scholz et al (2020)"
 34.2863177230566 -10.5993270130341
 34.2859980026431 -10.588685761975
 34.2856369451472 -10.5682339724745
@@ -3644,7 +3644,7 @@
 34.2878201009243 -10.4964847972388
 34.2907217178041 -10.4650967618769
 >
-# @D"Central Basin Fault 10"|W|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Likely intersects with Central Basin Fault 11 at depth.  Part of Central to South Basin Accomodation zone."|"McCartney and Scholz (2016); Scholz et al (2020)"|60
+# @D60|"Central Basin Fault 10"|W|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Likely intersects with Central Basin Fault 11 at depth.  Part of Central to South Basin Accomodation zone."|"McCartney and Scholz (2016); Scholz et al (2020)"
 34.4926173338247 -11.5129788892536
 34.494454981961 -11.5241891422732
 34.4960448835072 -11.5557515196283
@@ -3655,7 +3655,7 @@
 34.5083401898212 -11.6448114530597
 34.5258969729912 -11.687906046829
 >
-# @D"Central Basin Fault 5"|SE|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Part of Central to South Basin Accomodation zone."|"Scholz et al (2020)"|61
+# @D61|"Central Basin Fault 5"|SE|normal|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Part of Central to South Basin Accomodation zone."|"Scholz et al (2020)"
 34.5255629014916 -11.8630056213352
 34.5621902503468 -11.8071349935601
 34.5853116601536 -11.7811696924459
@@ -3663,14 +3663,14 @@
 34.6422958979698 -11.6745980910759
 34.665987842531 -11.6235208081143
 >
-# @D"Central Basin Fault 23"|E|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020)"|62
+# @D62|"Central Basin Fault 23"|E|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020)"
 34.3006448038272 -11.1440246844259
 34.2911435511401 -11.1241466505744
 34.2836136434133 -11.0936356047718
 34.2713572461012 -11.0578274306847
 34.2672607540195 -11.0432328963928
 >
-# @D"Usisya North"|E|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Flannery and Rosendahl (1990), Contreras et al (2000), Accardo et al (2018), Scholz et al (2020)"|63
+# @D63|"Usisya North"|E|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Flannery and Rosendahl (1990), Contreras et al (2000), Accardo et al (2018), Scholz et al (2020)"
 34.3363073264195 -10.9059357896885
 34.3365522566285 -10.8891984110399
 34.337134617117 -10.8765735585969
@@ -3691,7 +3691,7 @@
 34.3026191271071 -10.5733364131565
 34.3067120603868 -10.5401893980994
 >
-# @D"Lipichili North"|W|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Central Basin Fault 14 of Scholz et al (2020)"|"McCartney and Scholz (2016); Scholz et al (2020)"|64
+# @D64|"Lipichili North"|W|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Central Basin Fault 14 of Scholz et al (2020)."|"McCartney and Scholz (2016); Scholz et al (2020)"
 34.3963499462066 -10.654781112789
 34.4019779555261 -10.6650453886391
 34.4129774147276 -10.6845619783983
@@ -3701,7 +3701,7 @@
 34.4427785525936 -10.7627249948852
 34.4435815630943 -10.7715005121501
 >
-# @D"Central Basin Fault 8"|E|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"McCartney and Scholz (2016); Scholz et al (2020)"|65
+# @D65|"Central Basin Fault 8"|E|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"McCartney and Scholz (2016); Scholz et al (2020)"
 34.4625638458743 -11.0037914859976
 34.4603187234105 -10.989336261605
 34.4595023749815 -10.9663482057281
@@ -3709,7 +3709,7 @@
 34.4618392460814 -10.9475130545066
 34.4657519549462 -10.9371962777395
 >
-# @D"Central Basin Fault 7"|E|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020)"|66
+# @D66|"Central Basin Fault 7"|E|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020)"
 34.5025260068902 -10.9189172670064
 34.5019604359205 -10.9158279698184
 34.5019971490931 -10.8885054054859
@@ -3728,7 +3728,7 @@
 34.4721718877206 -10.667986988896
 34.4717870091581 -10.6582783305495
 >
-# @D"Usisya Tip-2"|E|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Flannery and Rosendahl (1990), Contreras et al (2000), Accardo et al (2018), Scholz et al (2020)"|67
+# @D67|"Usisya Tip-2"|E|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Flannery and Rosendahl (1990), Contreras et al (2000), Accardo et al (2018), Scholz et al (2020)"
 34.3083310476501 -10.5180929444959
 34.3164868257101 -10.4918824550902
 34.3246849033639 -10.4760338792685
@@ -3736,7 +3736,7 @@
 34.339865462178 -10.4181557906784
 34.3442100689346 -10.4034171862346
 >
-# @D"Usisya Tip-3"|E|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Flannery and Rosendahl (1990), Contreras et al (2000), Accardo et al (2018), Scholz et al (2020)"|68
+# @D68|"Usisya Tip-3"|E|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Flannery and Rosendahl (1990), Contreras et al (2000), Accardo et al (2018), Scholz et al (2020)"
 34.3693476797953 -10.4829337201356
 34.3704161188948 -10.4752977754336
 34.3780701852373 -10.4616296164728
@@ -3746,7 +3746,7 @@
 34.4079549910143 -10.3682421348001
 34.4166554215338 -10.3431129866772
 >
-# @D"South Basin Fault 11"|E|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Previously mapped as two faults (Scholz et al 2020), which were divded by throw step. This now represens a section boundary in the MSSD. Part of South Basin Fault 2-11 multi fault system"|"Scholz et al (2020)"|69
+# @D69|"South Basin Fault 11"|E|normal|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Previously mapped as two faults (Scholz et al 2020),  which were divded by throw step."|"Scholz et al (2020)"
 34.406585769383 -13.1074881886102
 34.4065397694159 -13.0993884350939
 34.4128212774841 -13.0405748207069
@@ -3767,7 +3767,7 @@
 34.5227022281635 -12.6100666956356
 34.5365064704205 -12.5718839125366
 >
-# @D"North Basin Fault 8"|SW|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020); Shillington et al (2020)"|70
+# @D70|"North Basin Fault 8"|SW|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020); Shillington et al (2020)"
 34.2168614966229 -9.80203318615055
 34.2315244174659 -9.82329390634633
 34.2524222239262 -9.86890050578278
@@ -3778,7 +3778,7 @@
 34.3151723815233 -10.0102556774978
 34.3142488451833 -10.0082356818697
 >
-# @D"North Basin Fault 2"|W|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020); Shillington et al (2020)"|71
+# @D71|"North Basin Fault 2"|W|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020); Shillington et al (2020)"
 34.3251327596492 -9.95834952957586
 34.3379376884251 -9.9917910130841
 34.3460768979761 -10.0198071544657
@@ -3787,7 +3787,7 @@
 34.3643260570155 -10.1411320360242
 34.3644058488938 -10.159966338204
 >
-# @D"North Basin Fault 1"|SW|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020); Shillington et al (2020)"|72
+# @D72|"North Basin Fault 1"|SW|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020); Shillington et al (2020)"
 34.1001772018503 -9.62452647063248
 34.1045302597847 -9.63997578922586
 34.1079131080199 -9.66931900595362
@@ -3799,7 +3799,7 @@
 34.1510887818988 -9.78328342704912
 34.1586803641146 -9.81193281182925
 >
-# @D"North Basin Fault 9"|W|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020); Shillington et al (2020)"|73
+# @D73|"North Basin Fault 9"|W|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020); Shillington et al (2020)"
 34.244754285833 -9.99777736154056
 34.2613126502744 -10.0105728612538
 34.2814895982943 -10.0379485100482
@@ -3814,7 +3814,7 @@
 34.3455240775414 -10.2895272443286
 34.3466882941024 -10.3824022008845
 >
-# @D"North Basin Fault 12"|W|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020); Shillington et al (2020)"|74
+# @D74|"North Basin Fault 12"|W|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020); Shillington et al (2020)"
 34.2099580030227 -10.0986943462179
 34.2393905375486 -10.1679229342609
 34.2532988631159 -10.1938579652605
@@ -3825,14 +3825,14 @@
 34.2923742133675 -10.2646243402891
 34.3033069411834 -10.2945194014961
 >
-# @D"North Basin Fault 4"|SW|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020); Shillington et al (2020)"|75
+# @D75|"North Basin Fault 4"|SW|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A||"Scholz et al (2020); Shillington et al (2020)"
 34.0358519862621 -9.86174091361367
 34.0485848633838 -9.87387373224263
 34.0723536644114 -9.89603598672934
 34.0944346182638 -9.91862674008676
 34.1050698740946 -9.93495974062639
 >
-# @DMetangula|SW|Escarpment|TanDEM-X|10000|2|1|2|N/A|"Heavily segmented border fault for South Basin.  Low confidence if still active"|"Lao Davila et al (2015), Flannery and Rosendahl (1990), Specht and Rosendahl (1989), Scholz (2020)"|76
+# @D76|Metangula|SW|normal|Escarpment|TanDEM-X|10000|2|1|2|N/A|"Heavily segmented border fault for South Basin.  Low confidence if still active."|"Lao Davila et al (2015), Flannery and Rosendahl (1990), Specht and Rosendahl (1989), Scholz (2020)"
 34.8843282486484 -12.9090741022609
 34.8737867478539 -12.9299488289184
 34.8737880206275 -12.9299486961398
@@ -3941,7 +3941,7 @@
 35.084401133945 -13.5022687154918
 35.1265086860391 -13.5254915153171
 >
-# @D"Central Basin Fault 2"|E|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Part of Central to South Basin Accomodation zone."|"Scholz et al (2020)"|77
+# @D77|"Central Basin Fault 2"|E|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Part of Central to South Basin Accomodation zone."|"Scholz et al (2020)"
 34.4540609166929 -11.7240719859779
 34.4032825829075 -11.6462158981915
 34.3795724977813 -11.5691587925486
@@ -3950,7 +3950,7 @@
 34.347388108715 -11.4891749677702
 34.3370645670673 -11.4586188245324
 >
-# @D"Central Basin Fault 11"|E|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Part of Central to South Basin Accomodation zone."|"Scholz et al (2020)"|78
+# @D78|"Central Basin Fault 11"|E|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Part of Central to South Basin Accomodation zone."|"Scholz et al (2020)"
 34.5356886651749 -11.800010877994
 34.5105786848501 -11.7756133455974
 34.5042624523234 -11.7655985734213
@@ -3969,7 +3969,7 @@
 34.4516898118672 -11.5544652460074
 34.4500788673068 -11.5433366659525
 >
-# @DLiwawadzi|E|"Minor escarpment/buried"|"TanDEM-X & Aeromagnetic"|20000|2|2|2|N/A|"Northern tip may show small subaerial expression."|"Kolawole et al (2021)"|79
+# @D79|Liwawadzi|E|normal|"Minor escarpment/buried"|"TanDEM-X & Aeromagnetic"|20000|2|2|2|N/A|"Northern tip may show small subaerial expression."|"Kolawole et al (2021)"
 35.0023803340001 -15.376690197
 35.001118954 -15.366295205
 35.002708426 -15.360791529
@@ -4002,7 +4002,7 @@
 35.010613504 -15.102048274
 35.010317028 -15.0783401529999
 >
-# @DMlungusi|E|Scarp|"TanDEM-X & Aeromagnetic"|10000|1|1|2|N/A|"Laterally continuous scarp mapped as terrace by Bloomfield and Garson (1965).  Northern extent uncertain as buried and mapped from aeromag."|"Bloomfield and Garson (1965); Wedmore et al (2020a); Kolawole et al (2021)"|80
+# @D80|Mlungusi|E|normal|Scarp|"TanDEM-X & Aeromagnetic"|10000|1|1|2|N/A|"Laterally continuous scarp mapped as terrace by Bloomfield and Garson (1965).  Northern extent uncertain as buried and mapped from aeromag."|"Bloomfield and Garson (1965); Wedmore et al (2020a); Kolawole et al (2021)"
 34.9548337588884 -15.4462165041522
 34.9541327762217 -15.4428289613427
 34.953233391043 -15.4397652408336
@@ -4094,7 +4094,7 @@
 34.967356081 -15.134543723
 34.9586497450001 -15.118121338
 >
-# @DBwanwie|W|"Minor escarpment"|"TanDEM-X & Aeromagnetic"|20000|2|2|2|N/A|"Mapped from combination of aeromag and topography. Very subdued expression in topography,  low confidence is active"|"Kolawole et al (2021)"|81
+# @D81|Bwanwie|W|normal|"Minor escarpment"|"TanDEM-X & Aeromagnetic"|20000|2|2|2|N/A|"Mapped from combination of aeromag and topography.  Very subdued expression in topography,  low confidence is active"|"Kolawole et al (2021)"
 35.0444331869679 -14.9356308803194
 35.0355102562788 -14.9520843946581
 35.0316211153868 -14.9582592427792
@@ -4108,7 +4108,7 @@
 35.0204974242613 -15.0471791937777
 35.0088370426676 -15.05644347994
 >
-# @DLisungwe|E|"Escarpment with distinct scarp along some sections"|TanDEM-X|10000|1|2|1|N/A|"Bounding escarpment 150 m high.  Southern end mapped from aeromag data with high uncertainity on possible splay"|"Bloomfield and Garson (1965); Wedmore et al (2020a); Kolawole et al (2021)"|82
+# @D82|Lisungwe|E|normal|"Escarpment with distinct scarp along some sections"|TanDEM-X|10000|1|2|1|N/A|"Bounding escarpment 150 m high.  Southern end mapped from aeromag data with high uncertainity on possible splay."|"Bloomfield and Garson (1965); Wedmore et al (2020a); Kolawole et al (2021)"
 34.6675663937938 -15.7038594078797
 34.7017587436032 -15.6367759221719
 34.6896459708531 -15.6218964307401
@@ -4148,7 +4148,7 @@
 34.7347356608328 -15.7077912231213
 34.7021817067755 -15.6367464157627
 >
-# @DWamkurumadzi|E|Escarpment|TanDEM-X|20000|2|2|2|N/A|"Associated with escarpment from 80-300 m in height. Brecciated and silicifed pegmatite at foot of scarp. High uncertainty if active.  Southern end mapped from aeromag"|"Bloomfield and Garson (1965); Kolawole et al (2021)"|83
+# @D83|Wamkurumadzi|E|normal|Escarpment|TanDEM-X|20000|2|2|2|N/A|"Associated with escarpment from 80-300 m in height.  Brecciated and silicifed pegmatite at foot of scarp.  High uncertainty if active.   Southern end mapped from aeromag."|"Bloomfield and Garson (1965); Kolawole et al (2021)"
 34.5878016579219 -15.7829212854896
 34.5830603929443 -15.7488914690159
 34.5744659479511 -15.7124117088396
@@ -4202,7 +4202,7 @@
 34.633121245816 -15.3298245619248
 34.6325569320958 -15.3276300085686
 >
-# @DChirobwe-Ncheu|E|"Escarpment with disitnct scarp along some sections"|TanDEM-X|10000|1|2|1|N/A|"Western border fault for the Makanjira Graben.  Branching geometry at southern end."|"Dawson and Kirkpatrick (1968); Walshaw (1965)"|84
+# @D84|Chirobwe-Ncheu|E|normal|"Escarpment with disitnct scarp along some sections"|TanDEM-X|10000|1|2|1|N/A|"Western border fault for the Makanjira Graben.  Branching geometry at southern end."|"Dawson and Kirkpatrick (1968); Walshaw (1965)"
 34.7313132579453 -14.9632467920492
 34.7332326065838 -14.9511758361395
 34.7346607566621 -14.944479719354
@@ -4505,7 +4505,7 @@
 34.5993477850409 -14.7592388786938
 34.6001624596518 -14.7537065605489
 >
-# @DPhirilanyama|E|Scarp|TanDEM-X|10000|1|2|1|N/A|"Prominent scarp at base of escarpment, splay at southern end"|"Harrison and Chapusa (1975); Ebinger (1987)"|85
+# @D85|Phirilanyama|E|normal|Scarp|TanDEM-X|10000|1|2|1|N/A|"Prominent scarp at base of escarpment, splay at southern end."|"Harrison and Chapusa (1975); Ebinger (1987)"
 34.1955943726966 -12.7873354911401
 34.1941715694797 -12.7844766952277
 34.1892027424799 -12.7779152602566
@@ -4533,7 +4533,7 @@
 34.1456152293181 -12.6203685526551
 34.1546755695922 -12.6029527537696
 >
-# @DWovwe|NE|Escarpment|TanDEM-X|10000|2|1|2|N/A|"Cretaceous sediments in hanging-wall, but their age may be revised to EARS (Mdala pers comm 2019).  Fault splays in map view"|"Kemp (1975)"|86
+# @D86|Wovwe|NE|normal|Escarpment|TanDEM-X|10000|2|1|2|N/A|"Cretaceous sediments in hanging-wall, but their age may be revised to EAR (Mdala pers comm 2019).  Fault splays in map view."|"Kemp (1975)"
 34.1899027208486 -10.616833002595
 34.1789545433268 -10.6148127012693
 34.1651927534961 -10.6114635568365
@@ -4583,7 +4583,7 @@
 34.0923213085446 -10.3409908377731
 34.0902438859524 -10.3389953574431
 >
-# @D"South Basin Fault 7"|E|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Previously mapped as two distinct faults (South Basin Fault 7&9),  but likely represent one fault trace."|"Scholz et al (2020)"|87
+# @D87|"South Basin Fault 7"|E|normal|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Previously mapped as two distinct faults (South Basin Fault 7&9),  but likely represent one fault trace."|"Scholz et al (2020)"
 34.1637662831856 -12.087033247666
 34.1788348782736 -12.0426569432007
 34.1923833713131 -12.000547006507
@@ -4603,7 +4603,7 @@
 34.215419671283 -11.9669942701867
 34.2103584184949 -11.9474137606064
 >
-# @DNchalo|NE|"None (buried)"|"Gravity Survey, Aeromagnetic"|50000|2|2|1|N/A|"NW dip implies intersects with Thyolo fault at shallow depths."|"Castaing (1991); Habgood (1963); Chisenga et al (2019); Kolawole et al (2021)"|88
+# @D88|Nchalo|NE|normal|"None (buried)"|"Gravity Survey,  Aeromagnetic"|50000|2|2|1|N/A|"NW dip implies intersects with Thyolo fault at shallow depths."|"Castaing (1991); Habgood (1963); Chisenga et al (2019); Kolawole et al (2021)"
 34.9943843490717 -16.2436345815349
 34.9741888642363 -16.2384774673589
 34.9535621050161 -16.2343915407539
@@ -4612,7 +4612,7 @@
 34.9084781522366 -16.1729978811253
 34.8981240493333 -16.1642720455769
 >
-# @DChilongwelo|W|"None (buried)"|Aeromagnetic|50000|2|2|2|NA|"Possible splay at tip of South Basin Fault 13."|"Kolawole et al 2021"|90
+# @D89|Chilongwelo|W|normal|"None (buried)"|Aeromagnetic|50000|2|2|2|NA|"Possible splay at tip of South Basin Fault 13."|"Kolawole et al 2021"
 34.767935311 -14.1645946149999
 34.769805418 -14.1736342849999
 34.770741871 -14.1804138689999
@@ -4629,7 +4629,7 @@
 34.7969486760001 -14.332695692
 34.7997527320001 -14.3403780789999
 >
-# @DChileka|W|"None (buried)"|Aeromagnetic|50000|2|2|2|NA|"Fault closely spaced (<6 km) across strike from the Zomba and Chingale Step faults."|"Kolawole et al (2021)"|91
+# @D90|Chileka|W|normal|"None (buried)"|Aeromagnetic|50000|2|2|2|NA|"Fault closely spaced (<6 km) across strike from the Zomba and Chingale Step faults."|"Kolawole et al (2021)"
 35.039212042 -15.6210603379999
 35.0280064770001 -15.6514249309999
 35.0139724700001 -15.682122315
@@ -4638,7 +4638,7 @@
 34.997232017 -15.755773136
 34.997051303 -15.778643436
 >
-# @DNguluwe|W|"None (buried)"|Aeromagnetic|50000|2|2|2|NA|"Fault closely spaced (<6 km) across strike from the Zomba and Chingale Step faults."|"Kolawole et al (2021)"|92
+# @D91|Nguluwe|W|normal|"None (buried)"|Aeromagnetic|50000|2|2|2|NA|"Fault closely spaced (<6 km) across strike from the Zomba and Chingale Step faults."|"Kolawole et al (2021)"
 35.0950402 -15.498992275
 35.0914299830001 -15.517563722
 35.089036779 -15.5272754329999
@@ -4650,34 +4650,34 @@
 35.068084777 -15.6100170469999
 35.062303028 -15.6279827009999
 >
-# @DJimbe|W|"None (buried)"|Aeromagnetic|50000|2|2|2|NA|"Mapped from aeromag.  No obvious surface expression, likely part of Lisungwe Fault,  not considered distinct MSSD source"|"Kolawole et al (2021)"|93
+# @D92|Jimbe|W|normal|"None (buried)"|Aeromagnetic|50000|2|2|2|NA|"Mapped from aeromag.  No obvious surface expression,  likely part of Lisungwe Fault."|"Kolawole et al (2021)"
 34.6993773757645 -15.5296456230389
 34.70160379 -15.5552787849999
 34.7067544660001 -15.5833735959999
 >
-# @D"Lirangwe River"|SW|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A||"Kolawole et al (2021)"|94
+# @D93|"Lirangwe River"|SW|normal|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A||"Kolawole et al (2021)"
 34.991192573 -15.4708904409999
 34.998684434 -15.4817977889999
 35.005019943 -15.4933124419999
 35.016127311 -15.5093279889999
 >
-# @DLinjidzi|S|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A||"Kolawole et al (2021)"|95
+# @D94|Linjidzi|S|normal|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A||"Kolawole et al (2021)"
 35.007389462 -15.4202820479999
 35.0251963110001 -15.4384255429999
 >
-# @DNgondo-2|W|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A|"Part of Liwawadzi fault system?"|"Kolawole et al (2021)"|96
+# @D95|Ngondo-2|W|normal|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A|"Part of Liwawadzi fault system?"|"Kolawole et al (2021)"
 35.025935599 -15.0900222189999
 35.026410969 -15.105363242
 35.026181046 -15.1130327299999
 >
-# @DNgondo-1|E|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A|"Part of Liwawadzi fault system?"|"Kolawole et al (2021)"|97
+# @D96|Ngondo-1|E|normal|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A|"Part of Liwawadzi fault system?"|"Kolawole et al (2021)"
 35.0168172580001 -15.155216981
 35.0140329120001 -15.149387379
 35.011082894 -15.143559979
 35.0097857320001 -15.137854161
 35.008444492 -15.130395145
 >
-# @DThyolo|SW|Scarp|"TanDEM-X & Aeromagnetic"|10000|1|1|2|N/A|"Segmented border fault for Lower Shire Basin.  Parallel to gneissic foliation. Previously mapped as seperate Thyolo and Muona faults (Hodge et al 2019). Includes buried section along Muona Fault.  Uncertainity on northern tip extent."|"Habgood, et al (1973); Castaing (1991); Hodge et al (2019); Williams et al (2019); Wedmore et al (2020b); Kolawole et al (2021b)"|98
+# @D97|Thyolo|SW|normal|Scarp|"TanDEM-X & Aeromagnetic"|10000|1|1|2|N/A|"Segmented border fault for Lower Shire Basin.  Parallel to gneissic foliation.  Previously mapped as seperate Thyolo and Muona faults (Hodge et al 2019).  Includes buried section along Muona Fault.  Uncertainity on northern tip extent."|"Habgood, et al (1973); Castaing (1991); Hodge et al (2019); Williams et al (2019); Wedmore et al (2020b); Kolawole et al (2021b)"
 34.7359625658073 -15.8129884986037
 34.7481495468558 -15.8527986148888
 34.7503988781291 -15.8631509479868
@@ -4870,7 +4870,7 @@
 35.2167713103846 -16.4863078875457
 35.2237973576674 -16.4911201059245
 >
-# @DChiloli|W|"Subdued scarp"|Aeromagnetic|20000|1|2|2|N/A|"Escarpment subdued, mapped from aeromag."|"Manyozo et al (1972); Kolawole et al (2021)"|99
+# @D98|Chiloli|W|normal|"Subdued scarp"|Aeromagnetic|20000|1|2|2|N/A|"Escarpment subdued, mapped from aeromag."|"Manyozo et al (1972); Kolawole et al (2021)"
 35.358208609202 -14.605356586223
 35.360899165628 -14.6157299464937
 35.3609320454252 -14.6165554589335
@@ -4881,7 +4881,7 @@
 35.3710682013419 -14.6781396464697
 35.3785455630492 -14.6968873283886
 >
-# @DNamiyala-1|W|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A|"Possible splay of Makanjira Fault."|"Kolawole et al (2021)"|100
+# @D99|Namiyala-1|W|normal|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A|"Possible splay of Makanjira Fault."|"Kolawole et al (2021)"
 35.4208668860423 -14.7325882901689
 35.4201301146658 -14.7378693348363
 35.4197547984049 -14.7421069758605
@@ -4898,7 +4898,7 @@
 35.3990707700275 -14.820609797532
 35.3958762011149 -14.8290306199482
 >
-# @DNamiyala-2|W|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A|"Possible splay of Makanjira Fault."|"Kolawole et al (2021)"|101
+# @D100|Namiyala-2|W|normal|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A|"Possible splay of Makanjira Fault."|"Kolawole et al (2021)"
 35.4371050825954 -14.7386031461727
 35.436944361328 -14.7459335125908
 35.4373459842677 -14.7512040155852
@@ -4915,7 +4915,7 @@
 35.4228098669941 -14.8202759351703
 35.4206352451726 -14.8270801229804
 >
-# @D"Liwonde National Park"|W|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A||"Kolawole et al (2021)"|102
+# @D101|"Liwonde National Park"|W|normal|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A||"Kolawole et al (2021)"
 35.346597858378 -14.7560804955975
 35.3437050648646 -14.7710895960052
 35.3425001364348 -14.7839537573812
@@ -4928,7 +4928,7 @@
 35.3652998246071 -14.8925924175983
 35.3667872320715 -14.8975916886431
 >
-# @DNamiyala-3|W|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A|"Possible splay of Makanjira Fault.  Forms very small topographic expression"|"Manyozo et al (1972); Kolawole et al (2021)"|103
+# @D102|Namiyala-3|W|normal|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A|"Possible splay of Makanjira Fault.  Forms very small topographic expression."|"Manyozo et al (1972); Kolawole et al (2021)"
 35.4368635296195 -14.7597319515765
 35.4392480154639 -14.7671510800884
 35.4435555656952 -14.7784058255161
@@ -4937,7 +4937,7 @@
 35.4550048229168 -14.7964308885171
 35.4587134053443 -14.8001125244289
 >
-# @DBwanje|W|"Offset basement"|"Project PROBE 2D Seismic Reflection Data & Aeromagnetic"|50000|1|2|2|N/A|"Exhibits lake floor scarp (Crow and Eccles 1980),  and offshore also offsets 75 Ka horzion in seismic reflection data and mappable in aeromagnetic data"|"Crow and Eccles (1980), Scholz et al (2021), Kolawole et al (2021)"|104
+# @D103|Bwanje|W|normal|"Offset basement"|"Project PROBE 2D Seismic Reflection Data & Aeromagnetic"|50000|1|2|2|N/A|"Exhibits lake floor scarp (Crow and Eccles 1980),  and offshore also offsets 75 Ka horzion in seismic reflection data and mappable in aeromagnetic data."|"Crow and Eccles (1980), Scholz et al (2021), Kolawole et al (2021)"
 34.685178014 -14.5498712909999
 34.689612719 -14.527805486
 34.6934110970001 -14.5088053599999
@@ -4987,7 +4987,7 @@
 34.5893513982728 -13.8371090826588
 34.5763361222463 -13.8245880115191
 >
-# @DLifisi|W|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A||"Kolawole et al (2021)"|105
+# @D104|Lifisi|W|normal|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A||"Kolawole et al (2021)"
 34.5366097844282 -13.8673251582845
 34.544115120916 -13.8747894393836
 34.5518563292355 -13.8795919695469
@@ -5002,13 +5002,13 @@
 34.586472384437 -14.0116667966449
 34.5973232812215 -14.0224138073547
 >
-# @D"Leopard Bay-2"|W|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A||"Kolawole et al (2021)"|106
+# @D105|"Leopard Bay-2"|W|normal|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A||"Kolawole et al (2021)"
 34.5429985832081 -13.6807746212729
 34.550278690623 -13.6908860665589
 34.5555343182908 -13.6978842462752
 34.5612047786417 -13.7076093356642
 >
-# @D"Leopard Bay-1"|W|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A||"Kolawole et al (2021)"|107
+# @D106|"Leopard Bay-1"|W|normal|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A||"Kolawole et al (2021)"
 34.5672195920109 -13.6512539696895
 34.5699765216213 -13.6668480853669
 34.5726995527725 -13.6759386235138
@@ -5018,7 +5018,7 @@
 34.5804273198269 -13.7045065410081
 34.5871550693527 -13.7118428544156
 >
-# @D"South Basin Fault 2"|W|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data & Aeromagnetic"|50000|1|2|2|N/A|"Observed in both aeromag and seismic reflection data.  Fault previously mapped as two distinct faults (Scholz et al 2020),  but aeromag indicates may represent branching fault system"|"Scholz et al (2020)"|108
+# @D107|"South Basin Fault 2"|W|normal|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data & Aeromagnetic"|50000|1|2|2|N/A|"Observed in both aeromag and seismic reflection data.  Fault previously mapped as two distinct faults (Scholz et al 2020),  but aeromag indicates may represent branching fault system"|"Scholz et al (2020)"
 34.4731845219007 -13.1434746865447
 34.4749620572261 -13.1699152509541
 34.476125949907 -13.1840198194087
@@ -5038,7 +5038,7 @@
 34.4663285308208 -13.5194438185071
 34.4864040480461 -13.5680851987303
 >
-# @D"South Basin Fault 13"|W|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data & Aeromagnetic"|50000|1|2|1|N/A|"Forms high displacment fault along the South Basin with South Basin Fault 5. Fault splays at southern end with lakefloor scarp identified by Crow and Eccles (1980)."|"Scholz et al (2020); Kolawole et al (2021); Crow and Eccles (1980)"|109
+# @D108|"South Basin Fault 13"|W|normal|"Synrift basement offset"|"Project PROBE 2D Seismic Reflection Data & Aeromagnetic"|50000|1|2|1|N/A|"Forms high displacment fault along the South Basin with South Basin Fault 5.  Fault splays at southern end with lakefloor scarp identified by Crow and Eccles (1980)."|"Scholz et al (2020); Kolawole et al (2021); Crow and Eccles (1980)"
 34.7790225931765 -13.8836146583806
 34.7834238668911 -13.8919091296237
 34.7868754501858 -13.9015100221098
@@ -5105,7 +5105,7 @@
 34.8260809687838 -14.3107574742045
 34.8320880264608 -14.3829401710865
 >
-# @DKaporo|W|"Offset reflector (in places). Otherwise buried"|"SEGMeNT, Project PROBE 2D Seismic Reflection Data & Aeromagnetic"|50000|1|2|2|N/A|"Only observed in seismic reflection data in central sections, where mapped as NB Fault 3"|"Kolawole et al 2018; Shillington et al (2020); Scholz et al (2020)"|110
+# @D109|Kaporo|W|normal|"Offset reflector (in places). Otherwise buried"|"SEGMeNT, Project PROBE 2D Seismic Reflection Data & Aeromagnetic"|50000|1|2|2|N/A|"Only observed in seismic reflection data in central sections,  where mapped as NB Fault 3."|"Kolawole et al 2018; Shillington et al (2020); Scholz et al (2020)"
 33.8622816537 -9.73495502600372
 33.8740153093839 -9.77142246534792
 33.8932226114844 -9.79668767041155
@@ -5143,7 +5143,7 @@
 34.158817071222 -10.2248275645072
 34.1706956546462 -10.2766099214913
 >
-# @D"North Basin Fault 15"|SW|"Synrift basement"|"SEGMeNT, Project PROBE 2D Seismic Reflection Data & Aeromagnetic"|50000|1|2|1|N/A|"Branching geometry"|"Scholz et al (2020); Shillington et al (2020)"|111
+# @D110|"North Basin Fault 15"|SW|normal|"Synrift basement"|"SEGMeNT, Project PROBE 2D Seismic Reflection Data & Aeromagnetic"|50000|1|2|1|N/A|"Branching geometry."|"Scholz et al (2020); Shillington et al (2020)"
 34.1401342350419 -9.98269724479127
 34.1518763717295 -10.0065299993812
 34.1605585549837 -10.0321994821934
@@ -5168,7 +5168,7 @@
 34.2648832731522 -10.4041931635977
 34.2533671630908 -10.4197868850197
 >
-# @DMbiri|W|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A||"Kolawole et al (2018)"|112
+# @D111|Mbiri|W|normal|"None (buried)"|Aeromagnetic|50000|2|2|2|N/A||"Kolawole et al (2018)"
 33.9521769820773 -10.0855543782038
 33.9585694481942 -10.0972617546697
 33.9561978612694 -10.1015564610083
@@ -5202,7 +5202,7 @@
 34.0791754232149 -10.1846631386981
 34.0799273547535 -10.2051983819087
 >
-# @D"North Basin Fault 14"|W|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Forms splay with 'North Basin Fault 13' mapped by Scholz et al (2020)"|"Scholz et al (2020); Shillington et al (2020)"|113
+# @D112|"North Basin Fault 14"|W|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Forms splay with 'North Basin Fault 13' mapped by Scholz et al (2020),"|"Scholz et al (2020); Shillington et al (2020)"
 33.9568772826612 -9.72279770091504
 33.9884632576283 -9.75914104835233
 34.0100999161151 -9.78682262680606
@@ -5243,7 +5243,7 @@
 34.1252905342643 -9.87287569487531
 34.1344816158754 -9.90379673056627
 >
-# @D"Central Basin Fault 20"|E|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Distinct minima in along-strike displacement at bend in fault strike"|"McCartney and Scholz (2016); Scholz et al (2020)"|114
+# @D113|"Central Basin Fault 20"|E|normal|"Synrift basement offset"|"SEGMeNT & Project PROBE 2D Seismic Reflection Data"|50000|1|2|1|N/A|"Distinct minima in along-strike displacement at bend in fault strike."|"McCartney and Scholz (2016); Scholz et al (2020)"
 34.4449213007898 -11.3772961764397
 34.4406378430516 -11.3664045347911
 34.4316381669258 -11.3227976128078
