@@ -1,5 +1,7 @@
 # Malawi Active Fault Database - MAFD
 
+https://zenodo.org/badge/DOI/10.5281/zenodo.5507190.svg
+
 The Malawi Active Fault Database (MAFD) is a freely available open-source geospatial database of active fault traces within Malawi. The database is intended to cover all active faults within Malawi, and those close to the borders in Mozambique and Tanzania. However, possible active faults within 20 km of Malawi in the Luangwa Rift, eastern Zambia, and the Rukwa Rift, southern Tanzania, are not included in the MAFD. 
 
 For full details of the criteria used to assess activity please refer to Williams et al, in review with G^3. An unreviewed preprint of this article is available at the following link: https://doi.org/10.1002/essoar.10507158.1
@@ -41,7 +43,7 @@ Following the [GEM-GAFD] this database is provided in a variety of GIS vector fi
 ## Version Control
 
 A "static version" of this database in all file formats described above and associated with the submission in *G^3* is available on Zenodo at the following link:
-[![DOI](https://zenodo.org/badge/91775241.svg)]
+[![DOI](https://zenodo.org/badge/91775241.svg)]https://zenodo.org/badge/DOI/10.5281/zenodo.5507190.svg
 
 This version is intended to be "Live" and as such we encourage edits of the GeoJSON file and the submission of pull requests. Please contact Jack Williams <jack.williams@otago.ac.nz> Luke Wedmore <luke.wedmore@bristol.ac.uk> or Hassan Mdala <mdalahassan@yahoo.com> for information, other requests or if you find any errors within the database.
 
