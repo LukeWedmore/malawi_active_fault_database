@@ -1,17 +1,17 @@
 # Malawi Active Fault Database - MAFD
 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5507190.svg)](https://doi.org/10.5281/zenodo.5507190)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5507189.svg)](https://doi.org/10.5281/zenodo.5507189)
 
 
 The Malawi Active Fault Database (MAFD) is a freely available open-source geospatial database of active fault traces within Malawi. The database is intended to cover all active faults within Malawi, and those close to the borders in Mozambique and Tanzania. However, possible active faults within 20 km of Malawi in the Luangwa Rift, eastern Zambia, and the Rukwa Rift, southern Tanzania, are not included in the MAFD. 
 
-For full details of the criteria used to assess activity please refer to Williams et al, in review with G^3. An unreviewed preprint of this article is available at the following link: https://doi.org/10.1002/essoar.10507158.1
-
 
 ## Citation
-Prior to publication, please cite this database as:
-Williams, J. N., Wedmore, L. N. J., Scholz, C. A., Kolawole, F., Wright, L. J. M., Shillington, D., Fagereng, Å., Biggs, J., Mdala, H., Dulanya, Z., Mphepo, F., Chindandali, P. R. N., Werner, M. J. (2021), The Malawi Active Fault Database: an onshore-offshore database for regional assessment of seismic hazard and tectonic evoultion. PREPRINT *Earth and Space Science Open Archive*, doi.org/10.1002/essoar.10507158.1
+Please cite the following two references if using this database:
+Williams, J. N., Wedmore, L. N. J., Scholz, C. A., Kolawole, F., Wright, L. J. M., Shillington, D., Fagereng, Å., Biggs, J., Mdala, H., Dulanya, Z., Mphepo, F., Chindandali, P. R. N., Werner, M. J. (2022), The Malawi Active Fault Database: an onshore-offshore database for regional assessment of seismic hazard and tectonic evoultion. _Geochemistry, Geophysics, Geosystems_, 23(5), e2022GC010425. https://doi.org/10.1029/2022GC010425
+
+Williams, J. N., Wedmore, L. N. J., Scholz, C. A., Kolawole, F., Wright, L. J. M., Shillington, D., Fagereng, Å., Biggs, J., Mdala, H., Dulanya, Z., Mphepo, F., Chindandali, P. R. N., Werner, M. J. (2021), Malawi Active Fault Database. [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5507189
 
 
 ## Data Format
